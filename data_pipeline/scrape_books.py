@@ -16,6 +16,12 @@ def get_soup(url):
     """Download a page and parse its HTML."""
     response = requests.get(url, timeout=15)
     response.raise_for_status()
+
+    # Books to Scrape uses UTF-8 text.
+    # Set the encoding explicitly to avoid corrupted
+    # characters such as â€™ in book titles.
+    response.encoding = "utf-8"
+
     return BeautifulSoup(response.text, "html.parser")
 
 
