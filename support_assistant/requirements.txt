@@ -1,0 +1,6 @@
+chromadb
+sentence-transformers==3.4.1
+langgraph
+fastapi
+uvicorn[standard]
+pydantic
