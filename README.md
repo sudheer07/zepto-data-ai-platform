@@ -4,12 +4,6 @@ Capstone project for the Certificate Program
 in Artificial Intelligence and Machine Learning.
 
 
-# Zepto Data & AI Platform Capstone
-
-An end-to-end Data & AI capstone project comprising a data
-engineering pipeline, exploratory data analysis and machine
-learning, and a retrieval-augmented customer support assistant.
-
 ## Project Structure
 
 ```text
